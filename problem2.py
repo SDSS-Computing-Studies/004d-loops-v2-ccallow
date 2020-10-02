@@ -8,6 +8,6 @@ a=1
 
 for i in range(1, n+1):
     a=a*i
-print(str(n) + "! = "+ str(a))
+print(str(n) + "! is "+ str(a))
 
 
