@@ -6,7 +6,7 @@
 nameList = ("Lebron","Kobe","Michale","Shaq","Dennis")
 a = str(input("Enter a name: ")).strip()
 
-for a in nameList:
+for i in nameList:
     if a in  nameList:
         print("that name is on the list")
         break
