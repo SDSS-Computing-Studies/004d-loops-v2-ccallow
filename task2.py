@@ -4,7 +4,7 @@
 # a single if with multiple logical operators
 
 nameList = ("Lebron","Kobe","Michale","Shaq","Dennis")
-a = str(input("Enter a name: "))
+a = str(input("Enter a name: ")).strip()
 
 for a in nameList:
     if a in  nameList:
